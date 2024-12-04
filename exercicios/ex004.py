@@ -17,4 +17,4 @@ else:
     print(f'A última letra do seu nome é {nome[-1]}')
     print('\033[1;35m=-' * 15)
     print("\033[1;32mVOLTE SEMPRE!!! ;)")
-    
+
