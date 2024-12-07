@@ -1,3 +1,5 @@
+import os
+
 shoppingList = []
 validOptions = 'IAL'
 
@@ -5,9 +7,9 @@ while True:
     userOption = input("Selecione uma opção [I]nserir [A]pagar [L]istar: ").upper()
      # INSERIR
     if userOption == 'I':
+        os.system("clear")
         shoppingList.append(input("Valor: "))
         print(shoppingList)
-        
         # DELETAR
     elif userOption == 'A':
         for index, name in enumerate(shoppingList):
@@ -19,7 +21,7 @@ while True:
             deleteIndex  = int(deleteIndex)
             if 0 <= deleteIndex < len(shoppingList):
                 shoppingList.pop(deleteIndex)
-                print("VALOR DELETADO!")
+                print(f"VALOR DELETADO: {name}")
             else:
                 print("Índice inválido!")
         except:
@@ -37,4 +39,3 @@ while True:
     elif userOption not in validOptions:
         print("Digite apenas os caracteres válidos!")
         continue
- 
