@@ -1,5 +1,3 @@
-import os
-
 shoppingList = []
 validOptions = 'IAL'
 
@@ -7,7 +5,6 @@ while True:
     userOption = input("Selecione uma opção [I]nserir [A]pagar [L]istar: ").upper()
      # INSERIR
     if userOption == 'I':
-        os.system("clear")
         shoppingList.append(input("Valor: "))
         print(shoppingList)
         # DELETAR
@@ -16,7 +13,7 @@ while True:
             print(index, name)
     
         deleteIndex = input("Informe o índice que deseja apagar: ")
-        
+
         try: 
             deleteIndex  = int(deleteIndex)
             if 0 <= deleteIndex < len(shoppingList):

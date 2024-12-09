@@ -1,7 +1,8 @@
-def oddOrEvenChecker(number):
+def oddOrEvenNumberChecker(number):
     if number % 2 == 0:
-        return print(f"O número {number} é PAR!")
-    return print(f"O número {number} é ÍMPAR!")
+        return print(f'O número {number} é PAR!')
+    else:
+        return print(f'O número {number} é ÍMPAR!')
 
 
-oddOrEvenChecker(number=int(input("Digite um número: ")))
+oddOrEvenNumberChecker(number=int(input("Informe um número: ")))
