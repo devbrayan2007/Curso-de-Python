@@ -1,0 +1,2 @@
+# Dir, hasattr e getattr
+

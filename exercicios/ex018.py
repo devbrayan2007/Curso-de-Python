@@ -26,7 +26,7 @@ while True:
     # PERGUNTA 1
     print(questions[0]['Pergunta'])
     for option in questions[0]['Opções']:
-        print(option)
+        print(option) 
     optionUser = float(input("Qual é a opção correta? "))
     if optionUser == questions[0]['Resposta']:
         print("Parabéns! Você acertou!!!")
