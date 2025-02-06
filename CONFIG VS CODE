@@ -1,0 +1,75 @@
+CONFIGURAÇÕES DO VS CODE: 
+
+
+{
+    "code-runner.executorMap": {
+        "python": "clear; python -u"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "git.confirmSync": false,
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "symbols.hidesExplorerArrows": false,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [80, 120],
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": true,
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "none",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.matchBrackets": "always",
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 11,
+            "y": 10
+        }
+    },
+    "apc.header": {
+        "height": 36
+    },
+    "apc.listRow": {
+        "height": 24
+    },
+    "apc.font.family": "Inter",
+    "apc.stylesheet": {
+        ".title-label > h2": "display: none",
+        ".editor-actions": "display: none",
+        "pane-body": "padding: 8px",
+        "pane-header": "padding: 0 8px"
+    },
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "explorer.fileNesting.enabled": true,
+    "workbench.sideBar.location": "left",
+    "remoteHub.commitDirectlyWarning": "off",
+    "git.enableSmartCommit": true,
+    "security.promptForLocalFileProtocolHandling": false,
+    "redhat.telemetry.enabled": true,
+    "workbench.colorCustomizations": {
+        "[Dark-Dracula]": {}
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "workbench.settings.applyToAllProfiles": [
+        "workbench.settings.openDefaultSettings"
+    ],
+    "liveServer.settings.CustomBrowser": "chrome",
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 1.8,
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontWeight": "bold",
+    "workbench.colorTheme": "Omni",
+    "editor.codeActionsOnSave": {},
+    "editor.fontSize": 13.5,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+}
